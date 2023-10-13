@@ -1,6 +1,7 @@
 const nemo = ['nemo']
 const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', 'squirt', 'darla']
 const largeArray = new Array(100).fill('nemo')
+const largerArray = new Array(1000).fill('nemo')
 
 function findNemo(array){
     let t0 = performance.now();
@@ -13,4 +14,4 @@ function findNemo(array){
     console.log("Call to find Nemo took " + (t1-t0) + 'milliseconds')
 }
 
-findNemo(largeArray)
+findNemo(largerArray)
