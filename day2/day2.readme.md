@@ -11,3 +11,15 @@ https://zerotomastery.io/cheatsheets/big-o-cheat-sheet/?utm_source=udemy&utm_med
 Big O
 - is our code scalable?
 - There are many ways to run code, many ways to solve, big(0) is best case for both time and space
+
+const = ['nemo']
+
+function findNemo(array){
+    for(let i = 0; i< array.length; i++){
+        if(array[i] === 'nemo'){
+            console.log("found nemo!");
+        }
+    }
+}
+
+findNemo(nemo)
