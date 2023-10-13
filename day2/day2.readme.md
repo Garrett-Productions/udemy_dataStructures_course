@@ -1,0 +1,1 @@
+Day2 of data structures course
