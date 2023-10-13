@@ -13,3 +13,6 @@ We get a link to community, intro yourself
 #4 When you graduate post your cert in the alumni chat and continue 
 
 #5 madew my intro in discord
+#6 there are coding challenges and open source projects
+
+zerotomastery.io/community 
