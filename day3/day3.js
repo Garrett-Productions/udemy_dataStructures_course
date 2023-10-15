@@ -52,3 +52,21 @@ function anotherFunChallenge(input){
 }
 // Big O 0f 4 + n(5 times)
 // Big 0(4 + 5n)
+
+//----------------------------------------------
+//     RULE BOOK
+
+
+// Rule #1 ---- WORST CASE ---- break;
+const nemo = ['nemo']
+
+function findNemo(array){
+    for(let i = 0; i< array.length; i++){
+        console.log("running")
+        if(array[i] === 'nemo'){
+            console.log("found nemo!");
+        }
+    }
+
+    console.log("Call to find Nemo took " + (t1-t0) + 'milliseconds')
+}
