@@ -17,5 +17,25 @@ There are 4 rules to Calculate big O of (n) down to just O(n)
 Rules
 ---------------1. WORST CASE ---------------------
 
+// Rule #1 ---- WORST CASE ---- break;
+const nemo = ['nemo']
+const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', 'squirt', 'darla']
+
+function findNemo(array){
+    for(let i = 0; i< array.length; i++){
+        console.log("running")
+        if(array[i] === 'nemo'){
+            console.log("found nemo!");
+            break; // allows our algo to stop, time complexity, if you find it, be efficient and break out
+        }
+    }
+
+    console.log("sup")
+}
+findNemo(everyone)
+// worst case is if nemo is the 10th place, best case is if nemo is 1st, if its 4th then break out
+
+
+
 
 -------------2. Remove Constants ------------------
