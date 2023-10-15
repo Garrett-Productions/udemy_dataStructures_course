@@ -178,3 +178,5 @@ console.log(array[array.length-1])
 
 // if its a crazy nested for loop its probably gonna be inefficient for the company, costly,not scalable code
 // start thining differently about how to store information efficiently with big(O(n)) space and time complexity in mind
+
+console.log('hiasefdai'.length)
