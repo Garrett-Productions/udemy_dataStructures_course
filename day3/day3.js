@@ -102,12 +102,24 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
 
 
 
-function compressAllBoxes(boxes, boxes2) => {
-    boxes.forEach(fucntion(boxes) {
-        console.log(boxes);
-    });
-    boxes2.forEach(function(boxes){
-        console.log(boxes);
-    });
-}
+// function compressAllBoxes(boxes, boxes2) => {
+//     boxes.forEach(fucntion(boxes) {
+//         console.log(boxes);
+//     });
+//     boxes2.forEach(function(boxes){
+//         console.log(boxes);
+//     });
+// }
 
+// log all pairs of array
+
+const theseBoxes = ['a', 'b', 'c', 'd', 'e'];
+
+function logAllPairsOfArray(array){
+    for (let i = 0; i < array.length; i++){
+        for (let j = 0; j < array.length; j++){
+            console.log(array[i], array[j])
+        }
+    }
+}
+logAllPairsOfArray(theseBoxes)
