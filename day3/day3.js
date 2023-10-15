@@ -32,3 +32,23 @@ function funChallenge(input){
 
 //This is BigO Above!
 // funChallenge();
+
+// 2nd example 
+
+function anotherFunChallenge(input){
+    let a = 5; // O(1)
+    let b = 10;// 0(1)
+    let c = 50;// 0(1)
+    for(let i = 0; i < input; i++){
+        let x = i + 1;// O(N)
+        let y = i + 2;// 0(N)
+        let z = i + 3;// O(N)
+    }
+    for (let j = 0; j < input.length; j++){
+        let p = j * 2;// 0(N)
+        let q = j * 2;// 0(N)
+    }
+    let whoAmI = "I Don't Know";// O(1)
+}
+// Big O 0f 4 + n(5 times)
+// Big 0(4 + 5n)
