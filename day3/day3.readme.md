@@ -61,3 +61,7 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
 // 0= 0(n + 1)
 // 0(n)
 // basically because all constants are damn near insignificant, the speed will hardly differ
+
+
+
+-----------------3. Different terms for inputs -----------
