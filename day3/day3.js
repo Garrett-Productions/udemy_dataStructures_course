@@ -74,3 +74,23 @@ function findNemo(array){
 }
 findNemo(everyone)
 // worst case is if nemo is the 10th place, best case is if nemo is 1st, if its 4th then break out
+
+
+// RULE #2, REMOVE CONSTANTS -----
+
+function printFirstItemThenFirstHalfThenSayHi100Times(items){
+    console.log(items[0])// O(n)
+
+    var middleIndex = Math.floor(items.length / 2);
+    console.log("Middle index is here>", middleIndex)
+    var index = 0;
+
+    while (index <middleIndex){
+        console.log(items[index]);
+        index++;
+    }
+
+    for (var i = 0; i < 100; i++){
+        console.log("Hi")
+    }
+}
