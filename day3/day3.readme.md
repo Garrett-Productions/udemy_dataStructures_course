@@ -75,3 +75,5 @@ O(N^2) is horrible, a lot of interview questions ask how to make these better
 
 Nested means we multiply
 
+-------------------4. Drop nondominant terms --------
+
