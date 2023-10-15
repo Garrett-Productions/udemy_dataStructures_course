@@ -87,3 +87,12 @@ Data Structures + Algorithms = Program
 
 O(n!) is a factorial, meaning a nested for loop for each input, WORST CASE SCENARIO,
 never want to encounter this or desire this;
+
+GREAT CODE IS MADE WITH 3 THINGS.
+1. Readable
+2. Memory = Space Complexity
+3. Speed = Time Complexity
+
+
+
+Space Complexity 
