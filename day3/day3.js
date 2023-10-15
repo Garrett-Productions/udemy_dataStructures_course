@@ -22,9 +22,9 @@ function funChallenge(input){
     a = 50 + 3; // 0(1)
     for(let i = 0; i < input.length; i++){
         anotherFunction(); // we dont know this, its called based on how big our input is
-        let stranger = true;
-        a++;
+        let stranger = true; // runs based on input, or, 0(n)
+        a++; // 53 becomes 54. it runs 0(n)
     }
-    return a;
+    return a; //runs once, 0(1)
 }
 funChallenge();
