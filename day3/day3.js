@@ -170,6 +170,11 @@ console.log(arrayOfHiNTimes(6))
 // Space complexity, adding additional memory that you need to use, sometimes, and sometiumes there isnt.. 
 // Sometimes you have to knopw if you want to optimize for time complexity or space complexity 
 
+//find 1st, and nth
 const array = ['hi', 'hi', 'hiasefdai']
 console.log(array[0])
 console.log(array[array.length-1])
+//added dates in dictionary
+
+// if its a crazy nested for loop its probably gonna be inefficient for the company, costly,not scalable code
+// start thining differently about how to store information efficiently with big(O(n)) space and time complexity in mind
