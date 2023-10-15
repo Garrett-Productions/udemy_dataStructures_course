@@ -27,4 +27,6 @@ function funChallenge(input){
     }
     return a; //runs once, 0(1)
 }
+// 3 steps + 0(n) + 0(n) + 0(n)
+3 + 
 funChallenge();
