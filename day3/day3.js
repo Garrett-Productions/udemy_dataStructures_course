@@ -156,4 +156,4 @@ function booooo(n){
         console.log("boooooo!");
     }
 }
-booooo([1,2,3,4,5])
+booooo([1,2,3,4,5]) //O(1)
