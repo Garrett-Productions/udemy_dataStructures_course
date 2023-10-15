@@ -18,8 +18,8 @@ var box = compressAllBoxes(5);
 console.log(box)
 
 function funChallenge(input){
-    let a = 10;
-    a = 50 + 3;
+    let a = 10; // 0(1)
+    a = 50 + 3; // 0(1)
     for(let i = 0; i < input.length; i++){
         anotherFunction();
         let stranger = true;
