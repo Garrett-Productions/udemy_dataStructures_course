@@ -125,3 +125,5 @@ function logAllPairsOfArray(array){
 logAllPairsOfArray(theseBoxes)
 
 // O(n * 2) or O(N^2)
+// QUADRAtic time because we have more than 2 elements
+// O(N^2) is horrible, a lot of interview questions ask how to make these better
