@@ -1,6 +1,8 @@
-function booooo(n){
-    for (let i = 0; i < n.length; i++){
-        console.log("boooooo!");
+function arrayOfHiNTimes(n){
+    let hiArray = []
+    for(let i = 0; i<n; i++) {
+        hiArray[i] = "hi" ;
     }
+    return hiArray;
 }
-booooo([1,2,3,4,5])
+console.log(arrayOfHiNTimes(6))
