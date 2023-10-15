@@ -69,5 +69,9 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
 
 When we see loops that are nested, we dont use addition to get 0(N), we use multiplication
 
+O(n * 2) or O(N^2)
+QUADRAtic time because we have more than 2 elements
+O(N^2) is horrible, a lot of interview questions ask how to make these better
 
+Nested means we multiply
 
