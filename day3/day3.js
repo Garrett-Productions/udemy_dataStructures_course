@@ -21,7 +21,7 @@ function funChallenge(input){
     let a = 10; // 0(1)
     a = 50 + 3; // 0(1)
     for(let i = 0; i < input.length; i++){
-        anotherFunction();
+        anotherFunction(); // we dont know this, its called based on how big our input is
         let stranger = true;
         a++;
     }
