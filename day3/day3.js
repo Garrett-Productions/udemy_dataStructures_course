@@ -169,3 +169,7 @@ console.log(arrayOfHiNTimes(6))
 
 // Space complexity, adding additional memory that you need to use, sometimes, and sometiumes there isnt.. 
 // Sometimes you have to knopw if you want to optimize for time complexity or space complexity 
+
+const array = ['hi', 'hi', 'hiasefdai']
+console.log(array[0])
+console.log(array[array.length-1])
