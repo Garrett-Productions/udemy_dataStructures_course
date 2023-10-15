@@ -123,3 +123,5 @@ function logAllPairsOfArray(array){
     }
 }
 logAllPairsOfArray(theseBoxes)
+
+// O(n * 2) or O(N^2)
