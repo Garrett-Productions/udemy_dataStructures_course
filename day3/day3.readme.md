@@ -78,3 +78,8 @@ Nested means we multiply
 -------------------4. Drop nondominant terms --------
 
 We Have now talked about: Constant Time, Linear Time, and Quadratic Time
+Constant = O(1)
+Linear = 0(n)
+quadratic = 0(n^2)
+
+Data Structures + Algorithms = Program
