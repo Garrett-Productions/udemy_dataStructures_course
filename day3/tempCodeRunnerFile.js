@@ -1,10 +1,14 @@
-const theseBoxes = ['a', 'b', 'c', 'd', 'e'];
+ function printAllNumbersAndThenAllPairSums(numbers){
+    console.log("These are my numbers:");
+    numbers.forEach(function(number){
+        console.log(number);
+    });
 
-function logAllPairsOfArray(array){
-    for (let i = 0; i < array.length; i++){
-        for (let j = 0; j < array.length; j++){
-            console.log(array[i], array[j])
-        }
-    }
-}
-logAllPairsOfArray(theseBoxes)
+    console.log('and these are their sums:');
+    numbers.forEach(function(firstnumber){
+        numbers.forEach(function(secondNumber){
+            console.log(firstnumber + secondNumber);
+        });
+    });
+ }
+ printAllNumbersAndThenAllPairSums([1,2,3,4,5])

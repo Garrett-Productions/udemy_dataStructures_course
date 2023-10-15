@@ -127,3 +127,20 @@ logAllPairsOfArray(theseBoxes)
 // O(n * 2) or O(N^2)
 // QUADRAtic time because we have more than 2 elements
 // O(N^2) is horrible, a lot of interview questions ask how to make these better
+
+
+// ------------ RULE #4 -------------
+ function printAllNumbersAndThenAllPairSums(numbers){
+    console.log("These are my numbers:");
+    numbers.forEach(function(number){
+        console.log(number);
+    });
+
+    console.log('and these are their sums:');
+    numbers.forEach(function(firstnumber){
+        numbers.forEach(function(secondNumber){
+            console.log(firstnumber + secondNumber);
+        });
+    });
+ }
+ printAllNumbersAndThenAllPairSums([1,2,3,4,5])
