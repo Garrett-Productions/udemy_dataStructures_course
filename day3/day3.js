@@ -85,12 +85,17 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
     console.log("Middle index is here>", middleIndex)
     var index = 0;
 
-    while (index <middleIndex){
-        console.log(items[index]);
+    while (index <middleIndex){ // half of whatever items are
+        console.log(items[index]); // n / 2
         index++;
     }
 
     for (var i = 0; i < 100; i++){
-        console.log("Hi")
+        console.log("Hi") // no matter the input array, + 100
     }
 }
+// Big O = O(1 + N/2 + 101)
+//O = 0(n/2 + 1)
+// 0= 0(n + 1)
+// 0(n)
+// basically because all constants are damn near insignificant, the speed will hardly differ
