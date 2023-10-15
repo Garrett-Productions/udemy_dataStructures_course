@@ -83,3 +83,7 @@ Linear = 0(n)
 quadratic = 0(n^2)
 
 Data Structures + Algorithms = Program
+
+
+O(n!) is a factorial, meaning a nested for loop for each input, WORST CASE SCENARIO,
+never want to encounter this or desire this;
