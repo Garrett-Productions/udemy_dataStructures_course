@@ -9,3 +9,5 @@ Constant Time*** its a flat line, we are grabbing one, like array[0] or array[1]
 
 
 https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations
+
+https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12139614#overview
