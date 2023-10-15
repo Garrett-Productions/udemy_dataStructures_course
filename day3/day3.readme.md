@@ -16,3 +16,6 @@ There are 4 rules to Calculate big O of (n) down to just O(n)
 
 Rules
 ---------------1. WORST CASE ---------------------
+
+
+-------------2. Remove Constants ------------------
