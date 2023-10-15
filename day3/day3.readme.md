@@ -96,3 +96,8 @@ GREAT CODE IS MADE WITH 3 THINGS.
 
 
 Space Complexity 
+
+
+EXAMPLE W TWITTER
+ * Getting the first tweet and getting the latest tweet, that O(n^2) because we can envision a nested for loop for an array input
+https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12202650#overview
