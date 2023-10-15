@@ -144,3 +144,5 @@ logAllPairsOfArray(theseBoxes)
     });
  }
  printAllNumbersAndThenAllPairSums([1,2,3,4,5])
+
+ //O(n^2)
