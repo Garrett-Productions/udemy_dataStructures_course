@@ -27,6 +27,8 @@ function funChallenge(input){
     }
     return a; //runs once, 0(1) 3 step
 }
-// 3 steps + 0(n) + 0(n) + 0(n)
-3 + 
+// 3 steps + 0(n) + 0(n) + 0(n) + 0(n)
+// Big O(3 + 4n)
+
+//This is BigO Above!
 funChallenge();
