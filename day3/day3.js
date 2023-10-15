@@ -166,3 +166,6 @@ function arrayOfHiNTimes(n){
     return hiArray;
 }
 console.log(arrayOfHiNTimes(6))
+
+// Space complexity, adding additional memory that you need to use, sometimes, and sometiumes there isnt.. 
+// Sometimes you have to knopw if you want to optimize for time complexity or space complexity 
