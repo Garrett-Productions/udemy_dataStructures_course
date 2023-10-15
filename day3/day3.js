@@ -73,3 +73,4 @@ function findNemo(array){
     console.log("sup")
 }
 findNemo(everyone)
+// worst case is if nemo is the 10th place, best case is if nemo is 1st, if its 4th then break out

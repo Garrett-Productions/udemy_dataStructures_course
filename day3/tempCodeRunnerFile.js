@@ -6,6 +6,7 @@ function findNemo(array){
         console.log("running")
         if(array[i] === 'nemo'){
             console.log("found nemo!");
+            break; // allows our algo to stop, time complexity, if you find it, be efficient and break out
         }
     }
 
