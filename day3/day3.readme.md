@@ -65,3 +65,9 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
 
 
 -----------------3. Different terms for inputs -----------
+
+
+When we see loops that are nested, we dont use addition to get 0(N), we use multiplication
+
+
+

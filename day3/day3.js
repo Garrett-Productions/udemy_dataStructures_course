@@ -99,3 +99,15 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
 // 0= 0(n + 1)
 // 0(n)
 // basically because all constants are damn near insignificant, the speed will hardly differ
+
+
+
+function compressAllBoxes(boxes, boxes2) => {
+    boxes.forEach(fucntion(boxes) {
+        console.log(boxes);
+    });
+    boxes2.forEach(function(boxes){
+        console.log(boxes);
+    });
+}
+
