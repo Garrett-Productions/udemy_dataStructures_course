@@ -77,3 +77,4 @@ Nested means we multiply
 
 -------------------4. Drop nondominant terms --------
 
+We Have now talked about: Constant Time, Linear Time, and Quadratic Time
