@@ -24,3 +24,7 @@ EX) 0 |00000001, the 8 #'s together are called bytes. The CPU itself has very li
 Our goal is to minimize the amount of hassle the CPU uses, using data structures, to get our desired outcome
 
 
+Type of operations include, or types of actions are : insertion of an item, deletion of an iten, such as remove... maybe traversal, to acceess each data item exactly once, another is searching.. and then things like sorting, and msot importantly, access.
+
+There are differnet pros and cons with each DS for making these operations
+
