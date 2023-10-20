@@ -21,4 +21,6 @@ When we open back up, and run our code, all of our code is stored in random acce
 The RAM is like our CPU's controller. The RAM is a data structure that holds addresses, 1,2,3,4,5,6,7,8,9 and so on, and those addresses habe an 8 digit number of 0 and 1's attahced to it, known as bits. 
 EX) 0 |00000001, the 8 #'s together are called bytes. The CPU itself has very little memory, the RAM handles this, but the CPU stores the most recent stuff, as a copy, in your CPU's cache.
 
+Our goal is to minimize the amount of hassle the CPU uses, using data structures, to get our desired outcome
+
 
