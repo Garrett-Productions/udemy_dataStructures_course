@@ -29,7 +29,7 @@ console.log(strings)
 // strings.splice(2, 0, 'x') 
 // console.log(strings)
 // strings.splice(2,1)
-strings.splice(2,2)
+strings.splice(2,2) //  Big O(n/2) or because it stops where it needs to
 console.log(strings)
 strings.push('c')
 strings.push('d')
@@ -48,3 +48,9 @@ console.log(strings)
 
 // @returns — An array containing the elements that were deleted.
 
+
+
+// accessing the array, 0(1), piush and pop
+// splice, shifting and deleting, is O(n) might not be the fastest when it comes to arrays.
+
+// But their are 2 types of arrays
