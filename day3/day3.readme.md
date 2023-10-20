@@ -9,7 +9,6 @@ Constant and linear
 
 
 https://www.quora.com/What-is-the-difference-between-big-oh-big-omega-and-big-theta-notations
-
 https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12139614#overview
 
 There are 4 rules to Calculate big O of (n) down to just O(n)
