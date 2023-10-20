@@ -23,12 +23,19 @@ const stringsExShow =
 
 //What about adding to the middle of the array?
 //What about Splice?
-
-strings.splice() 
+const strings = ["a", "b", "c", "d"]
+console.log(strings)
+// strings.splice()
+// strings.splice(2, 0, 'x') 
+// console.log(strings)
+strings.splice(2,1)
+strings.splice(2,2)
+console.log(strings)
 // splice takes a start number, or index of the array, the 2nd param is how many values to delete from there,
 // the 3rd value is the value to add to the array
 
 // when hovering over
+
 // (method) Array<string>.splice(start: number, deleteCount?: number | undefined): string[] (+1 overload)
 // Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
