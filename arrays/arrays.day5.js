@@ -13,4 +13,13 @@ strings.pop(); //  0(1)
 console.log(strings)
 
 strings.unshift('x') // O(n) have to move all values in the array and insert a new [0] value
-console.log(strings)
+console.log(strings) // 5 operations to realign indexes
+
+const stringsExShow = 
+['x', 'a', 'b', 'c', 'd']; 
+//0    1    2    3    4
+
+// perhaps arrays aren't the best data structure to use if you're gonna need to add items to the beginning of the array
+
+
+//What about Splice?
