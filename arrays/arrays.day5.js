@@ -9,3 +9,5 @@ console.log(strings)
 // because we are just adding to the end, its an O(1) operation, we arent looping, we are just going through it one time.
 strings.pop();
 console.log(strings)
+strings.pop();
+console.log(strings)
