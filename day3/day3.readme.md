@@ -41,7 +41,7 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
     console.log(items[0])// O(n)
 
     var middleIndex = Math.floor(items.length / 2);
-    console.log("Middle index is here>", middleIndex)
+    console.log("Middle index is here:", middleIndex)
     var index = 0;
 
     while (index <middleIndex){ // half of whatever items are
@@ -59,10 +59,7 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items){
 // 0(n)
 // basically because all constants are damn near insignificant, the speed will hardly differ
 
-
-
 -----------------3. Different terms for inputs -----------
-
 
 When we see loops that are nested, we dont use addition to get 0(N), we use multiplication
 
