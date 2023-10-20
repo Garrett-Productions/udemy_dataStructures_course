@@ -14,4 +14,8 @@ They exiast for their own specific case.
 1. When and how do we use them?
 2. DS are just tools, mostly pre built,  when do we use one over the other?
 
+UNDERSTANDING
+1. in order for a CPU to run code, it has to staore things like variables(strings, ints, array) them in random access manager or RAM for short. Storage stores our video and music files. Data on storage is persistent, in RAM you lsoe the memory when your computer turns off. Persistent storage is slow, cpu is the worker doing all the calculations we need, it needs aceess to the ram and the storage. Vars are held in RAM, ocne we close an app, when we save it, we save it to our CPU where it's held in storage.
+When we open back up, and run our code, all of our code is stored in random access memory, and then we save it again and its stored in in our CPU storage. but during the running our CPU can offload and delegate lots of work to the RAM from the storage.
+
 
