@@ -14,6 +14,7 @@ https://www.udemy.com/course/master-the-coding-interview-data-structures-algorit
 There are 4 rules to Calculate big O of (n) down to just O(n)
 
 Rules
+
 ---------------1. WORST CASE ---------------------
 
 // Rule #1 ---- WORST CASE ---- break;
@@ -33,9 +34,6 @@ function findNemo(array){
 }
 findNemo(everyone)
 // worst case is if nemo is the 10th place, best case is if nemo is 1st, if its 4th then break out
-
-
-
 
 -------------2. Remove Constants ------------------
 
