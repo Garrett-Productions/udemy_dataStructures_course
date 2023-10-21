@@ -23,3 +23,10 @@ console.log(strings) // 5 operations to realign indexes
 strings.splice() takes in an index to start, 2nd param is the amount of indexes to delete, 3rd potential param is the optional param, of adding a value, ex) ['x']
 
 strings.splice(2, 0, 'x') or strings.splice(2,2)
+
+When hovering over the built in..
+    (method) Array<string>.splice(start: number, deleteCount?: number | undefined): string[] (+1 overload)
+    Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+    @param start — The zero-based location in the array from which to start removing elements.
+    @param deleteCount — The number of elements to remove.
+    @returns — An array containing the elements that were deleted.
