@@ -14,9 +14,6 @@ console.log(strings)
 strings.unshift('x') // O(n) have to move all values in the array and insert a new [0] value
 console.log(strings) // 5 operations to realign indexes
 
-const strings = ["a", "b", "c", "d"]
-console.log(strings)
-// strings.splice()
 // strings.splice(2, 0, 'x') 
 // console.log(strings)
 // strings.splice(2,1)
