@@ -6,3 +6,8 @@ Arrays are ment if you need to store data and iterate over it step by step, look
 const strings = ["a", "b", "c", "d"]
     4*4 = 16 bytes of storage
     we stored it, lets grab it
+
+const stringsExShow = 
+
+['x', 'a', 'b', 'c', 'd']; 
+0    1    2    3    4
