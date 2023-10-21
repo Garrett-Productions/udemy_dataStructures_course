@@ -21,3 +21,5 @@ console.log(strings) // 5 operations to realign indexes
 //What about Splice?
 
 strings.splice() takes in an index to start, 2nd param is the amount of indexes to delete, 3rd potential param is the optional param, of adding a value, ex) ['x']
+
+strings.splice(2, 0, 'x') or strings.splice(2,2)
