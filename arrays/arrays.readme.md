@@ -32,3 +32,7 @@ When hovering over the built in..
     @returns — An array containing the elements that were deleted.
 
 Splice, shifting and deleting, is O(n) might not be the fastest when it comes to arrays.
+
+                        ****** Static and dynamic arrays *********
+    *Static - fixed in size, specifying the # of elements the array holds ahead of time
+    *Dynamic - allow us to copy and rebuild the array, at a new location, using more memory

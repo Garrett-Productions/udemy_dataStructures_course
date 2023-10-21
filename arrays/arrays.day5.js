@@ -23,3 +23,6 @@ strings.push('c')
 strings.push('d')
 console.log(strings)
 // accessing the array, 0(1), push and pop
+
+
+// ------------------------------------------------------------------------------------ //
