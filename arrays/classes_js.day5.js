@@ -35,3 +35,4 @@ class Wizard extends Player {
 }
 const wizardKing = new Wizard('Garrett', 'Level 99');
 const WizardQueen = new Wizard('Charisma', 'Level 98')
+// making copies is instantiating, using refernces with super()
