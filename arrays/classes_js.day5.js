@@ -7,3 +7,5 @@ console.log(object1.value =15);
 console.log(object2.value);
 console.log(object3.value);
 
+// With objects we are always referncing, referencing other variables
+// alot of times we get reference type errors.
