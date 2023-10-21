@@ -22,8 +22,6 @@ console.log(strings)
 strings.push('c')
 strings.push('d')
 console.log(strings)
-// splice takes a start number, or index of the array, the 2nd param is how many values to delete from there,
-// the 3rd value is the value to add to the array
 // accessing the array, 0(1), piush and pop
 // splice, shifting and deleting, is O(n) might not be the fastest when it comes to arrays.
 
