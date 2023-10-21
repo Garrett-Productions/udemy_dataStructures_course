@@ -30,3 +30,5 @@ When hovering over the built in..
     @param start — The zero-based location in the array from which to start removing elements.
     @param deleteCount — The number of elements to remove.
     @returns — An array containing the elements that were deleted.
+
+Splice, shifting and deleting, is O(n) might not be the fastest when it comes to arrays.

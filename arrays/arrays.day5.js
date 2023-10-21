@@ -22,7 +22,7 @@ console.log(strings)
 strings.push('c')
 strings.push('d')
 console.log(strings)
-// accessing the array, 0(1), piush and pop
-// splice, shifting and deleting, is O(n) might not be the fastest when it comes to arrays.
+// accessing the array, 0(1), push and pop
+
 
 // But their are 2 types of arrays
