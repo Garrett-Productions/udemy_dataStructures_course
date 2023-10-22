@@ -21,12 +21,14 @@ class MyArray {
     delete(index){
         const item = this.data[index];
         this.shiftItems(index);
+        return item
     }
     shiftItems(index){
         for (let i = index; i < this.length - 1; i++){
             this.data[i] = this.data[i+1];
             // so, an array of [0,1], becomes, [1], the first indeice gets replaced by the 2nd
         }
+        this.length[this.length-1]
     }
 }
 
