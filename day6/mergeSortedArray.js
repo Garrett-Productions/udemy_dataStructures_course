@@ -1,4 +1,4 @@
-// merge arrays with values in descending order
+// merge already sorted arrays in desceding order, into a fully sorted array
 function mergeSortedArray(array1, array2){
     const mergedArray=[]
     let arrayItem1 = array1[0]
