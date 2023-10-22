@@ -14,6 +14,7 @@ function reverse(str){
 const backwards = [];
 const totalItems = str.length-1;
 for(let i = totalItems; i >= 0; i--){
+    console.log(str.length)
     console.log(totalItems)
     backwards.push(str[i]);
 }
