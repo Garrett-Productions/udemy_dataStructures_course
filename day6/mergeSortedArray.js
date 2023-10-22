@@ -5,6 +5,9 @@ function mergeSortedArray(array1, array2){
 
     //esdge cases, check inputs and input types
     if(array1.length === 0 ){
-        return array2 // because its already merged
+        return array2 // because its already merged;
+    }
+    if(array2.length === 0){
+        return array1 // because its already merged;
     }
 }
