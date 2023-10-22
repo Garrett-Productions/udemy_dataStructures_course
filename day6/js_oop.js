@@ -38,3 +38,5 @@ newArray.push("What's up!");
 console.log(newArray);
 newArray.pop()
 console.log(newArray);
+newArray.delete(1)
+console.log(newArray);
