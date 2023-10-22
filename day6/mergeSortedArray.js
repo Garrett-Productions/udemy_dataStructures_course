@@ -24,7 +24,8 @@ function mergeSortedArray(array1, array2){
             j++
         }
     }
+    console.log(mergedArray)
     return mergedArray;
 }
 
-console.log(mergeSortedArray([0,3,23,10],[2,11,2]))
+mergeSortedArray([0,3,4,31,76],[4,6,30,99])
