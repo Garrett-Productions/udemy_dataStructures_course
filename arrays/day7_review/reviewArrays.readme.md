@@ -8,3 +8,8 @@ String questions can be handled like array questions, by split() the split.
 Arrays are really good at having sorted data!
 
 When would you want to use an array? When not?
+
+ARRAYS ARE GREAT FRO:
+* Fast Lookups
+* Fast Push/Pop
+* ordered
