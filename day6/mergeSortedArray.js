@@ -1,5 +1,4 @@
 // merge arrays with values in descending order
-
 function mergeSortedArray(array1, array2){
     const mergedArray=[]
     let arrayItem1 = array1[0]
@@ -18,9 +17,8 @@ function mergeSortedArray(array1, array2){
         if (!arrayItem2 || arrayItem1 < arrayItem2){ // if the first var is less than
             mergedArray.push(arrayItem1) // push it to the new array instance
             arrayItem1 = array1[i] // we dont need to worry about the value of 0 anymore, so set it equal to the next value in the array
-            i++ 
-        } //  we arent using a for loop so we innitiate i as 1 up top
-        else {
+            i++ //  we arent using a for loop so we innitiate i as 1 up top
+        } else {
             mergedArray.push(arrayItem2);
             arrayItem2 = array2[j]
             j++
@@ -29,4 +27,4 @@ function mergeSortedArray(array1, array2){
     return mergedArray;
 }
 
-console.log(mergeSortedArray([0,3,23,10],[2,98,3,2]))
+console.log(mergeSortedArray([0,3,23,10],[2,11,2]))
