@@ -11,8 +11,8 @@ function reverse(str){
         return "hmm wrong data type, try again";
     }
 
-const backwards = []
-const totalItems = str.length-1
+const backwards = [];
+const totalItems = str.length-1;
 for(let i = totalItems; i >= 0; i--){
     // console.log(str)
     console.log(totalItems)
