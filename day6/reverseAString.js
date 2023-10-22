@@ -1,0 +1,1 @@
+// We can treat a string just like an array an access it by index, and run built ins like we can on an array
