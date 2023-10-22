@@ -17,6 +17,6 @@ function mergeSortedArray(array1, array2){
         if (arrayItem1 < arrayItem2){ // if the first var is less than
             mergedArray.push(arrayItem1) // push it to the new array instance
             arrayItem1 = array1[i+1] // we dont need to worry about the value of 0 anymore, so set it equal to the next value in the array
-        } //  we innitiate i up top as one, because thats the second index in the array
+        } //  we arent using a for loop so we innitiate i as 1 up top
     }
 }
