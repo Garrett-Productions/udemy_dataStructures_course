@@ -23,3 +23,5 @@ return backwards.join('')
 }
 
 reverse("Hi my name is Andrei")
+// easy first way
+// heres the second with pure built ins
