@@ -12,8 +12,17 @@ class MyArray {
         this.length++
         return this.length;
     }
+    pop(){
+        const lastItem = this.data[this.length - 1];
+        delete this.data[this.length-1]; // delete the value of the index
+        this.length--;
+        return lastItem;
+    }
 }
 
 const newArray = new MyArray();
 newArray.push("Hey Garrett");
+newArray.push("What's up!");
+console.log(newArray);
+newArray.pop()
 console.log(newArray);
