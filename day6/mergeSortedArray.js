@@ -5,6 +5,7 @@ function mergeSortedArray(array1, array2){
     let arrayItem1 = array1[0]
     let arrayItem2 = array2[0];
     let i = 1;
+    let j = 1; //  we aren't using a for loop here so we initiate our iterators up top
 
     //esdge cases, check inputs and input types
     if(array1.length === 0 ){
@@ -18,5 +19,10 @@ function mergeSortedArray(array1, array2){
             mergedArray.push(arrayItem1) // push it to the new array instance
             arrayItem1 = array1[i+1] // we dont need to worry about the value of 0 anymore, so set it equal to the next value in the array
         } //  we arent using a for loop so we innitiate i as 1 up top
+        else {
+            mergedArray.push(arrayItem2){
+                arrayItem2 = array2[j+1]
+            }
+        }
     }
 }
