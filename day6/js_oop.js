@@ -18,6 +18,11 @@ class MyArray {
         this.length--;
         return lastItem;
     }
+    delete(index){
+        const item = this.data[index];
+        this.shiftItems(index);
+    }
+    
 }
 
 const newArray = new MyArray();
