@@ -22,7 +22,12 @@ class MyArray {
         const item = this.data[index];
         this.shiftItems(index);
     }
-    
+    shiftItems(index){
+        for (let i = index; i < this.length - 1; i++){
+            this.data[i] = this.data[i+1];
+            // so, an array of [0,1], becomes, [1], the first indeice gets replaced by the 2nd
+        }
+    }
 }
 
 const newArray = new MyArray();
