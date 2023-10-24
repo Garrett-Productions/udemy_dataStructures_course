@@ -17,3 +17,5 @@ user.scream(); // O(1)
 // with an object, a key must be a string
 // MAP maintains insertion order
 const newMap = new Map()
+
+const newSet = Set() // only stores the keys, no values
