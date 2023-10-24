@@ -13,3 +13,5 @@ class HashTable {
 }
 const myHashTable = new HashTable(50)
 console.log(myHashTable)
+myHashTable.set('grapes', 10000)
+console.log(myHashTable)
