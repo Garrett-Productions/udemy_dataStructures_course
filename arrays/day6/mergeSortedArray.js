@@ -6,7 +6,7 @@ function mergeSortedArray(array1, array2){
     let i = 1;
     let j = 1; //  we aren't using a for loop here so we initiate our iterators up top
 
-    //esdge cases, check inputs and input types
+    //edge cases, check inputs and input types
     if(array1.length === 0 ){
         return array2 // because its already merged;
     }
