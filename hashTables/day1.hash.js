@@ -54,7 +54,8 @@ class HashTable {
                     return currentBucket[i][1] // return the value if the key matches
                 }
             }
-        }
+        } // if there are no collisions it'll be O(1)
+        return undefined
     }
 }
 const myHashTable = new HashTable(50)
