@@ -63,3 +63,7 @@ console.log(myHashTable)
 myHashTable._hash('grapes');
 // myHashTable.set('grapes', 100000)
 console.log(myHashTable)
+
+// look up map.get and map.set for explanation
+
+// what if we wanted to go through all the keys?
