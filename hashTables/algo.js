@@ -14,4 +14,4 @@ function firstRecurringChar(input){
     }
     return undefined
 }
-console.log(firstRecurringChar([2,5,1,2,3,5,1,2,4]));
+console.log(firstRecurringChar([5,4,3]));
