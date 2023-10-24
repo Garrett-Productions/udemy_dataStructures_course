@@ -18,3 +18,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 map.set and map.get
 
 The differences between both is that: objects can only have strings as keys and maps can have any data set as a key, even a fucntion
+
+HASH TABLES V.S. ARRAYS.
+* the differences and similarities 
