@@ -11,7 +11,7 @@ function mergeSortedArray(array1, array2){
         return array2 // because its already merged;
     }
     if(array2.length === 0){
-        return array1 // because its already merged;
+        return array1 // because its already one array that's sorted;
     }
     while(arrayItem1 || arrayItem2){ // while these values exist
         if (!arrayItem2 || arrayItem1 < arrayItem2){ // if the first var is less than
