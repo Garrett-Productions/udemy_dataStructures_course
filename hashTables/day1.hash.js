@@ -19,3 +19,12 @@ user.scream(); // O(1)
 const newMap = new Map()
 
 const newSet = Set() // only stores the keys, no values
+
+// Example of a Hash Table 
+// with has tables we can set the value of 'grapes' and then 'get' the value of grapes
+class HashTable {
+    constructor(size){
+        this.data = new Array(size);
+        
+    }
+}
