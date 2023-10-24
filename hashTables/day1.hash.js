@@ -7,8 +7,8 @@ let user = {
     }
 }
 
-console.log(user.age)
-user.spell = "abra kadabra"
-user.scream();
+console.log(user.age) // O(1)
+user.spell = "abra kadabra" //O(1)
+user.scream(); // O(1)
 
 // this is BigO(n/k) k being the size of our hash table, but since we remove constraints, its just bigO(n)
