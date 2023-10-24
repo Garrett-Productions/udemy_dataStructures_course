@@ -14,3 +14,7 @@ When this COLLISION happens, these objects, or, keys and values are in a way lim
 HASHES
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+
+map.set and map.get
+
+The differences between both is that: objects can only have strings as keys and maps can have any data set as a key, even a fucntion

@@ -12,7 +12,30 @@ class HashTable {
         }
         return hash;
     }
+    set(key, value) {
+        let address = this._hash(key);
+        if (!this.data[address]) {
+            this.data[address] = [];
+        }
+        this.data[address].push([key, value])
+        return this.data
+    }
+    get(key){
+        let address = this._hash(key);
+        const currentBucket = this.data[address];
+        console.log(currentBucket)
+        if (currentBucket) {
+            for(let i = 0; i < currentBucket.length; i++){
+                if(currentBucket[i][0] === key){
+                    return currentBucket[i][1] // return the value if the key matches
+                }
+            }
+        } // if there are no collisions it'll be O(1)
+        return undefined
+    }
 }
 const myHashTable = new HashTable(50)
 console.log(myHashTable)
 myHashTable._hash('grapes');
+// myHashTable.set('grapes', 100000)
+console.log(myHashTable)
