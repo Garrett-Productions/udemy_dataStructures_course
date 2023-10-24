@@ -77,3 +77,5 @@ console.log(myHashTable.keys());
 // look up map.get and map.set for explanation
 
 // what if we wanted to go through all the keys?
+
+// now we are getting into functions and algos with maps and objects 
