@@ -33,9 +33,19 @@ class HashTable {
         } // if there are no collisions it'll be O(1)
         return undefined
     }
+    keys(){
+        const keysArray = [];
+        for(let i = 0; i < this.data.length; i++){
+            if(this.data[i]){
+                keysArray.push(this.data[i][0][0])
+            }
+        }
+        return keysArray
+    }
 }
 const myHashTable = new HashTable(50)
-console.log(myHashTable)
-myHashTable._hash('grapes');
+// console.log(myHashTable)
+// myHashTable._hash('grapes');
 // myHashTable.set('grapes', 100000)
-console.log(myHashTable)
+// console.log(myHashTable)
+console.log(myHashTable.keys());
