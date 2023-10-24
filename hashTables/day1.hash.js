@@ -15,3 +15,5 @@ user.scream(); // O(1)
 
 // With a MAP function, it allows you to save any data type as the key,
 // with an object, a key must be a string
+
+const newMap = new Map()
