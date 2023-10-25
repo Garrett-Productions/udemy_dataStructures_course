@@ -43,12 +43,12 @@ function reversal(str){
     }
     const backwards = []
     // const actualLength = str.length - 1;
-    for(let i = str.length-1; i >= 0; i--){
+    for(let i = str.length; i >= 0; i--){
         // console.log(str[i])
         backwards.push(str[i]);
         // console.log(backwards)
     }
-    console.log(backwards.join(''))
+    // console.log(backwards.join(''))
     console.log(backwards)
     return backwards.join('')
     
