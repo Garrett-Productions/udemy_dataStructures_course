@@ -1,17 +1,30 @@
-function reversal(str){
-    if (!str || str.length < 1 || typeof str !== 'string'){
-        return "Wrong Data Type"
+function mergeArrays(array1, array2){
+    // merge already sorted arrays in desceding order, into a fully sorted array
+    const mergedArray = []// set to empyty initially
+    let arrayOnePointer = array1[0]
+    let arrayTwoPointer = array2[0]
+    let i = 1;
+    let j = 1;
+
+    if(array1.length === 0){
+        return array2
     }
-    const backwards = []
-    // const actualLength = str.length - 1;
-    for(let i = str.length-1; i >= 0; i--){
-        // console.log(str[i])
-        backwards.push(str[i]);
-        // console.log(backwards)
+    if(array2 === 0){
+        return array1
     }
-    // console.log(backwards.join(''))
-    console.log(backwards)
-    return backwards.join('')
-    
+    while(arrayOnePointer || arrayTwoPointer){
+        if(!arrayTwoPointer || arrayOnePointer < arrayTwoPointer){
+            mergedArray.push(arrayOnePointer)
+            arrayOnePointer = array1[i] //  we are now gonna initialize this pointer at the 2nd value or first index, up above
+            i++
+        } else {
+            mergedArray.push(arrayTwoPointer)
+            arrayTwoPointer = array2[j]
+            j++
+        }
+    }
+    // console.log(mergedArray)
+    return mergedArray
 }
-reversal("Hi my name is Andrei")
+
+console.log(mergeArrays([0,2,5,35,96],[4,6,30,99]));
