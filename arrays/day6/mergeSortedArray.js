@@ -32,5 +32,8 @@ mergeSortedArray([0,3,4,31,76],[4,6,30,99])
 
 // with this algo here is the thought process
 // we are merging two already sorted arrays.. and keeping them in sorted order
-// lets 1st check our worst case, and edge case. Lets ensure we have data in each position, and not just one array or an empty array
+// 1st check our worst case, and edge case. Lets ensure we have data in each position, and not just one array or an empty array
 // if one of our inputs is empty return the one that has inputs
+// 2nd lets create two variables to capture firstly the first indice in each array to make initial comparison
+// 3rdly lets create an empty array variable to hold our merged array, and do our if check, whichever is smallest, push to the know array
+// 4thly, move our two pointers forward to compare the next two indices
