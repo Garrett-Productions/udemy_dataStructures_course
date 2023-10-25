@@ -37,3 +37,10 @@ mergeSortedArray([0,3,4,31,76],[4,6,30,99])
 // 2nd lets create two variables to capture firstly the first indice in each array to make initial comparison
 // 3rdly lets create an empty array variable to hold our merged array, and do our if check, whichever is smallest, push to the know array
 // 4thly, move our two pointers forward to compare the next two indices
+
+function mergeArrays(){
+    // merge already sorted arrays in desceding order, into a fully sorted array
+    const mergedArray = []// set to empyty initially
+}
+
+console.log(mergeArrays([0,3,4,31,76],[4,6,30,99]));
