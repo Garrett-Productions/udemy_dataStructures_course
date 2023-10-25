@@ -54,3 +54,4 @@ function reversal(str){
     
 }
 reversal("Hi my name is Andrei")
+// without the string minus one, ir falls off the end and console logs to empty placeholders

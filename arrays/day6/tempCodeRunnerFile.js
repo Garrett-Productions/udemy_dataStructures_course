@@ -9,8 +9,8 @@ function reversal(str){
         backwards.push(str[i]);
         // console.log(backwards)
     }
-    console.log(backwards.join(''))
-    // console.log(backwards)
+    // console.log(backwards.join(''))
+    console.log(backwards)
     return backwards.join('')
     
 }
