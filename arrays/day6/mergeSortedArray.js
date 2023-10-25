@@ -29,3 +29,5 @@ function mergeSortedArray(array1, array2){
 }
 
 mergeSortedArray([0,3,4,31,76],[4,6,30,99])
+
+// with this algo here is the thought process
