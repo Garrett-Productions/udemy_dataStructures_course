@@ -41,6 +41,8 @@ mergeSortedArray([0,3,4,31,76],[4,6,30,99])
 function mergeArrays(){
     // merge already sorted arrays in desceding order, into a fully sorted array
     const mergedArray = []// set to empyty initially
+    let arrayOnePointer = array1[0]
+    let arrayTwoPointer = array2[0]
 }
 
 console.log(mergeArrays([0,3,4,31,76],[4,6,30,99]));
