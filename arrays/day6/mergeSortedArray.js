@@ -31,3 +31,4 @@ function mergeSortedArray(array1, array2){
 mergeSortedArray([0,3,4,31,76],[4,6,30,99])
 
 // with this algo here is the thought process
+// we are merging two already sorted arrays.. and keeping them in sorted order
