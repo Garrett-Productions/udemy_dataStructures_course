@@ -13,5 +13,5 @@ function firstRecurringChar(input){
         }
     }
     return undefined
-}
+} // O(n^2) because we are brute forcing
 console.log(firstRecurringChar([5,4,3]));
