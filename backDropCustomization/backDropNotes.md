@@ -44,3 +44,6 @@ fullscreen
     "interval": 0 // seconds of interval for carousel, default `0` to disabled.
   }
 }
+
+Side Notes
+This extension works by editing the VSCode’s CSS file, so a warning appears the first time update the background. U can click the [never show again] to avoid it.
