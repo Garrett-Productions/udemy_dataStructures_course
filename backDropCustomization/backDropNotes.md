@@ -47,3 +47,10 @@ fullscreen
 
 Side Notes
 This extension works by editing the VSCode’s CSS file, so a warning appears the first time update the background. U can click the [never show again] to avoid it.
+
+Do these 3 things before you write a line of code:
+
+- Understand the problem
+- Ideate possible solutions
+- Decide on the best approach
+- Then start to write some code
