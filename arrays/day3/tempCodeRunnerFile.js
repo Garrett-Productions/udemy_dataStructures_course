@@ -1,20 +1,10 @@
-const nemo = ['nemo']
-const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', 'squirt', 'darla']
-const largeArray = new Array(100).fill('nemo')
-const largerArray = new Array(1000).fill('nemo')
-const evenLargerArray = new Array(10000).fill('nemo')
-const largestArray = new Array(100000).fill('nemo') // big 0(n)
+const theseBoxes = ['a', 'b', 'c', 'd', 'e'];
 
-function findNemo(array){
-    let t0 = performance.now();
-    for(let i = 0; i< array.length; i++){
-        if(array[i] === 'nemo'){
-            console.log("found nemo!");
+function logAllPairsOfArray(array){
+    for (let i = 0; i < array.length; i++){
+        for (let j = 0; j < array.length; j++){
+            console.log(array[i], array[j])
         }
     }
-    let t1 = performance.now();
-    console.log("Call to find Nemo took " + (t1-t0) + 'milliseconds')
 }
-
-findNemo(everyone)
-findNemo(largeArray)
+logAllPairsOfArray(theseBoxes) 

@@ -1,51 +1,14 @@
-class HashTable {
-    constructor(size){
-        this.data = new Array(size);
-    }
-    _hash(key) {
-        let hash = 0
-        for(let i = 0; i < key.length; i++){
-            hash = (hash + key.charCodeAt(i) * i) % // this gives us a random num between 0-65,000 for every char in our string, times it by itself, and then runs a modulo to keep it within the length
-            this.data.length
-            console.log(hash)
-            console.log(key.charCodeAt())
-        }
-        return hash;
-    }
-    set(key, value) {
-        let address = this._hash(key);
-        if (!this.data[address]) {
-            this.data[address] = [];
-        }
-        this.data[address].push([key, value])
-        return this.data
-    }
-    get(key){
-        let address = this._hash(key);
-        const currentBucket = this.data[address];
-        console.log(currentBucket)
-        if (currentBucket) {
-            for(let i = 0; i < currentBucket.length; i++){
-                if(currentBucket[i][0] === key){
-                    return currentBucket[i][1] // return the value if the key matches
-                }
-            }
-        } // if there are no collisions it'll be O(1)
-        return undefined
-    }
-    keys(){
-        const keysArray = [];
-        for(let i = 0; i < this.data.length; i++){
-            if(this.data[i]){
-                keysArray.push(this.data[i][0][0])
+function firstRecurrChar(array){
+    //double for loop, capturing i at 0 index while allowing j to loop. if there is a match at any point return it, maybe i can plug in my time complexity algo to test
+    for (i = 0; i < array.length; i++){ // i = array[0]
+        for (j = i + 1; j < array.length; j++){ // j = array[1]
+            if (array[i] === array[j]){
+                return console.log("this is i: ", array[i], "this is j: ", array[j])
             }
         }
-        return keysArray
     }
+    return undefined
 }
-const myHashTable = new HashTable(50)
-// console.log(myHashTable)
-// myHashTable._hash('grapes');
-// myHashTable.set('grapes', 100000)
-// console.log(myHashTable)
-console.log(myHashTable.keys());
+
+
+firstRecurrChar([2,8,3,8,6,5]);
