@@ -8,7 +8,7 @@ Strings
 
 
 Arrays
-1. Merge Sorted Arrays - [merge already sorted arrays in desceding order, into a fully sorted array]
+1. Merge Sorted Arrays - [merge already sorted arrays in descending order, into a fully sorted array]
 2. First Recurring Character - [Return the first character we see twice]
 3. Remove Elements - [remove all occurences of given value in given array, in place, return unique values]
 4. Remove Duplicates from a Sorted Array - [given an array, remove dupes in place so each element appears only once, return number of unique nums]
