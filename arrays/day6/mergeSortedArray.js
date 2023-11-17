@@ -114,6 +114,16 @@ function mergeSortedArr(array1, array2){
     // create a const to capture our merged arrays, this will be an empty array to start
     // lastly, lets use a while loop, while our base cases pass run our code, and we will initialize 2 pointers both startinmg at 1
     const mergedArray = []
+    let array1position = array1[0];
+    let array2position = array2[0];
+    
+    if(array1.length === 0){
+        return array2 
+        // because array 2 is already merged, algo solved
+    }
+    if(array2.length === 0){
+        return array1
+    }
 }
 
 mergeSortedArr([0,3,4,31,76],[4,6,30,99])
