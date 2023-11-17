@@ -98,7 +98,6 @@ function mergeSorteddArray(array1, array2){
             arrayItem2 = array2[j]
             j++
         }
-    
     }
     console.log("Merged Array", mergedArray)
     const mergedArrayToUse = mergedArray
@@ -116,6 +115,8 @@ function mergeSortedArr(array1, array2){
     const mergedArray = []
     let array1position = array1[0];
     let array2position = array2[0];
+    let i = 1;
+    let j = 1;
     
     if(array1.length === 0){
         return array2 
@@ -124,6 +125,19 @@ function mergeSortedArr(array1, array2){
     if(array2.length === 0){
         return array1
     }
+    while(array1position || array2position){
+        if(!array2position || array1position < array2position){
+            mergedArray.push(array1position)
+            array1position = array1[i]
+            i++
+        }else {
+            mergedArray.push(array2position)
+            array2position = array2[j]
+            j++
+        }
+    }
+    console.log("here is my merged Array", mergedArray)
+    return mergedArray
 }
 
 mergeSortedArr([0,3,4,31,76],[4,6,30,99])
