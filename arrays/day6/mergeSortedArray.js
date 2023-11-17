@@ -111,6 +111,7 @@ mergeSorteddArray([0,3,4,31,76],[4,6,30,99])
 function mergeSortedArr(array1, array2){
     // merge already sorted arrays in desceding order, into a fully sorted array
     // base cases to check to ensure the data types are arrays and that we have two parameters to make comparison checks
+    // create a const to capture our merged arrays, this will be an empty array to start
 }
 
 mergeSortedArr([0,3,4,31,76],[4,6,30,99])
