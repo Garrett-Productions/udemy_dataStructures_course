@@ -41,3 +41,5 @@ firstRecurrChar([2,8,3,8,6,5]);
 function recurringCharacter(array){
     //Return the first character we see twice
 }
+
+console.log(recurringCharacter([2,8,3,8,6,5]))
