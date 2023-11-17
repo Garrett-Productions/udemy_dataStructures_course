@@ -46,3 +46,7 @@ JS Built Ins I've used in these algos, if study more, note them.
 4. indexOf()****
 5. substring()****
 6. split('')
+
+
+
+11/16 Notes
