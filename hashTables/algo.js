@@ -39,8 +39,9 @@ firstRecurrChar([2,8,3,8,6,5]);
 
 
 function recurringCharacter(array){
-    //Return the first character we see twice
+    // Return the first character we see twice
     // we can brute force this with a nested for loop
+    // we can have two pointers that make comparisons towards one another, and if they equal one another, return the int's
 }
 
 console.log(recurringCharacter([2,8,3,8,6,5]))
