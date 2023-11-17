@@ -1,14 +1,14 @@
-function firstRecurrChar(array){
-    //double for loop, capturing i at 0 index while allowing j to loop. if there is a match at any point return it, maybe i can plug in my time complexity algo to test
-    for (i = 0; i < array.length; i++){ // i = array[0]
-        for (j = i + 1; j < array.length; j++){ // j = array[1]
-            if (array[i] === array[j]){
-                return console.log("this is i: ", array[i], "this is j: ", array[j])
+function recurringCharacter(array){
+    // Return the first character we see twice
+    // we can brute force this with a nested for loop
+    // we can have two pointers that make comparisons towards one another, and if they equal one another, return the int's
+    for(let i = 0; i < array.length; i++){
+        for (let j=i+1; j < array.length; j++){
+            if(array[i] === array[j]){
+                return console.log("Array of i is:", array[i], "Array of j is:", array[j])
             }
         }
     }
-    return undefined
 }
 
-
-firstRecurrChar([2,8,3,8,6,5]);
+console.log(recurringCharacter([2,8,3,8,6,5]))
