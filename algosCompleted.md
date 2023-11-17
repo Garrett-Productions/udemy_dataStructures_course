@@ -55,3 +55,4 @@ JS Built Ins I've used in these algos, if study more, note them.
 Reviewed & Notes
 1. First Recurring Character
 - I can brute force this, I want to make it more efficient
+2. Merge Sorted Arrays
