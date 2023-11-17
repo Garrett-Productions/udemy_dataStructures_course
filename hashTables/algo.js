@@ -40,6 +40,7 @@ firstRecurrChar([2,8,3,8,6,5]);
 
 function recurringCharacter(array){
     //Return the first character we see twice
+    // we can brute force this with a nested for loop
 }
 
 console.log(recurringCharacter([2,8,3,8,6,5]))
