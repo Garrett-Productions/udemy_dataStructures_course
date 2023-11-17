@@ -107,3 +107,7 @@ function mergeSorteddArray(array1, array2){
 mergeSorteddArray([0,3,4,31,76],[4,6,30,99])
 
 
+
+function mergeSortedArr(array1, array2){
+    // merge already sorted arrays in desceding order, into a fully sorted array
+}
