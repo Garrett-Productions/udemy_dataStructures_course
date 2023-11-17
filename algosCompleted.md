@@ -50,3 +50,4 @@ JS Built Ins I've used in these algos, if study more, note them.
 
 
 11/16 Notes
+* Reviewing how I categorized these algos, and then Im going to look at them and pick back up on them
