@@ -62,4 +62,13 @@ function reverseThis(str){
         return 'I think we got the wrong data type'
     }
     //create an empty array, loop through my string starting at the end, and append each iteration of my loop to my new array, return it as a string
+    const backwards = []
+    const totalItems = str.length - 1;
+    for (let i = totalItems; i>=0; i--){
+        backwards.push(str[i]);
+    }
+    console.log(backwards)
+    //return it as a string
+    backwards.join('');
+    return backwards
 }
