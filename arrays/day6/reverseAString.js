@@ -70,5 +70,11 @@ function reverseThis(str){
     console.log(backwards)
     //return it as a string
     backwards.join('');
+    console.log(backwards)
     return backwards
+
 }
+
+reverseThis('Hi my name is garrett')
+
+f
