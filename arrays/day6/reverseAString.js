@@ -55,3 +55,11 @@ function reversal(str){
 }
 reversal("Hi my name is Andrei")
 // without the string minus one, ir falls off the end and console logs to empty placeholders, or comes out undefined
+
+function reverseThis(str){
+    //check input
+    if(!str || str.length < 2|| typeof str!== 'string'){
+        return 'I think we got the wrong data type'
+    }
+    //create an empty array, loop through my string starting at the end, and append each iteration of my loop to my new array, return it as a string
+}

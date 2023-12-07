@@ -57,3 +57,4 @@ Reviewed & Notes
 - I can brute force this, I want to make it more efficient
 2. Merge Sorted Arrays
 - just keep reviewing this one, this is great, shows the important of base case checks, and using while loops and manually increasing an interator based on conditionals
+
